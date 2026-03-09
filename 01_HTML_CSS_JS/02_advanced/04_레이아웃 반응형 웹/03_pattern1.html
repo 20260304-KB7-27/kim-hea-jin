@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 960px;
+        margin: 0 auto;
+        /* div menu와 section을 수평나열 */
+        display: flex;
+      }
+      #menu {
+        width: 260px;
+      }
+      #section {
+        width: 700px;
+      }
+
+      @media screen and (max-width: 767px) {
+        body {
+          width: auto;
+          /* div menu와 section을 수직나열 */
+          flex-direction: column;
+        }
+        #menu {
+          width: auto;
+        }
+        #section {
+          width: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <ul>
+        <li>메뉴A</li>
+        <li>메뉴B</li>
+        <li>메뉴C</li>
+      </ul>
+    </div>
+    <div id="section">
+      <h1>Lorem, ipsum dolor</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab velit nulla
+        explicabo et laudantium quaerat perferendis vel! Praesentium, debitis,
+        delectus fuga amet ullam explicabo velit illo vero fugit et a beatae?
+        Sed pariatur unde totam reiciendis molestiae sint, rem tenetur?
+        Perspiciatis pariatur quos delectus fugiat, voluptates consectetur
+        suscipit incidunt, quisquam beatae fugit numquam ab praesentium ipsa
+        mollitia illum neque eaque quae sequi odit deserunt dignissimos a
+        molestias! Eaque, animi dolor. Asperiores, amet aut. Soluta et facilis
+        unde, cupiditate, perspiciatis culpa numquam labore nihil veritatis aut
+        incidunt autem? Unde eius aspernatur eligendi labore, voluptatem ipsum
+        voluptate nisi. Sunt unde natus enim.
+      </p>
+    </div>
+  </body>
+</html>

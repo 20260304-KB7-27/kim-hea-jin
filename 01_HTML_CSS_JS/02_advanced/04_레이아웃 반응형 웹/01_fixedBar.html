@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        /* bar와 text가 겹치지 않도록 높이/너비만큼 margin 할당 */
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+
+      /* 
+      position: fixed; 고정 레이아웃
+       특징: 
+       - 스크롤을 내려도 화면의 특정 위치에 고정
+       - 일반적인 문서 흐름에서 제외되어 다른 요소들의 위치를 무시
+       */
+
+      .top_bar {
+        background-color: red;
+        height: 50px;
+        /* 스크롤해도 위치고정 */
+        position: fixed;
+        /* 위치설정(좌표) */
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      .left_bar {
+        background-color: blue;
+        width: 50px;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top_bar"></div>
+    <div class="left_bar"></div>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dicta, cum
+        minima quod nulla dolores sit? Ea distinctio sit adipisci in corrupti
+        nihil alias ipsum expedita provident eligendi ratione quidem odit
+        repellat minima delectus, odio, consequatur vitae quibusdam omnis. Quas,
+        laborum eveniet omnis minima sint distinctio magni fugiat quaerat at
+        totam sit veritatis esse ex sapiente iste voluptates illo deleniti
+        perspiciatis facilis quae tenetur. Id inventore ipsam hic. Fugit, sequi
+        neque! Accusamus veniam exercitationem placeat aperiam praesentium
+        provident laboriosam qui, commodi cum, sunt optio reprehenderit quaerat
+        labore recusandae consectetur ducimus adipisci eligendi facere
+        temporibus, porro aliquid itaque. Asperiores, veniam enim?
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+        molestiae, iure eaque sit incidunt rem eveniet qui fugit commodi
+        perferendis velit nesciunt non iusto reprehenderit quas consectetur,
+        impedit doloremque aperiam laborum! Cumque ipsum, velit nulla illo
+        voluptas aut, accusantium omnis at adipisci laboriosam est nisi.
+        Nesciunt, provident tempora quos recusandae illum sequi praesentium
+        exercitationem, placeat aut, suscipit rerum laborum ipsum est unde esse
+        ullam numquam perspiciatis porro voluptatum in ducimus officiis!
+        Corporis, cum est magni sapiente officia voluptas nam non maiores, nulla
+        autem quo repellat nisi ipsa quis ratione nemo vitae hic eius assumenda.
+        Tempore, atque! Ut alias itaque cupiditate!
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+        tenetur assumenda aliquam rerum commodi minus illo labore saepe atque
+        ratione quia quidem cum porro consequatur ducimus, odit ipsum quo
+        similique.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+        tenetur assumenda aliquam rerum commodi minus illo labore saepe atque
+        ratione quia quidem cum porro consequatur ducimus, odit ipsum quo
+        similique.
+      </p>
+    </div>
+  </body>
+</html>
