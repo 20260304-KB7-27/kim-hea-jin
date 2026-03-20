@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue 3 연습용 Composition</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      x : <input type="text" v-model.number="x" /> <br />
+      y : <input type="text" v-model.number="y" /> <br />
+      덧셈 결과: {{sum}}
+    </div>
+
+    <script>
+      const { createApp, ref, watch } = Vue;
+
+      createApp({
+        setup() {
+          const x = ref(0);
+          const y = ref(0);
+          const sum = ref(0);
+
+          watch(x, (newVal, oldVal) => {
+            console.log(`x 이전값: ${oldVal}, 새로운 값: ${newVal}`);
+            sum.value = x.value + y.value;
+          });
+
+           watch(y, (newVal, oldVal) => {
+            console.log(`y 이전값: ${oldVal}, 새로운 값: ${newVal}`);
+            sum.value = x.value + y.value;
+          });
+
+          return { x, y, sum
+          };
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html>
