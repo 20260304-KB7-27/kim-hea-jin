@@ -32,7 +32,6 @@
         <li
           v-for="value in sortedPosts"
           :key="value.id"
-          @click="content(value.id)"
           class="post-item"
         >
           <span>
@@ -72,7 +71,7 @@
         setup() {
           const selectid = ref(null);
           const content = (id) => {
-            selectid.value = id;
+            selectid.value = selectid.value === id ? null : id;
           };
 
           const posts = ref([
