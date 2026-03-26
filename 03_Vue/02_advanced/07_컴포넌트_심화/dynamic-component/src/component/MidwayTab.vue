@@ -6,13 +6,9 @@
 </template>
 
 <script setup>
-
-
-
+defineOptions({
+  name: 'MidwayTab',
+});
 </script>
 
-<style scoped>
-
-
-
-</style>
+<style scoped></style>

@@ -6,13 +6,9 @@
 </template>
 
 <script setup>
-
-
-
+defineOptions({
+  name: 'CoralSeaTab',
+});
 </script>
 
-<style scoped>
-
-
-
-</style>
+<style scoped></style>

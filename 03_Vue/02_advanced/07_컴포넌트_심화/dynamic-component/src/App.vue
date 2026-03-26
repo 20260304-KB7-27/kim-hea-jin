@@ -12,9 +12,11 @@
         </a>
       </li>
     </ul>
-      <!-- 선택한 탭의 내용 (동적 컨포넌트) -->
-      <!-- keep-alive: cache 저장해 다시 화면 랜더링X -->
+    <!-- 선택한 탭의 내용 (동적 컨포넌트) -->
+    <!-- keep-alive: cache 저장해 다시 화면 랜더링X -->
+    <keep-alive>
       <component :is="currentTab"></component>
+    </keep-alive>
   </div>
 </template>
 

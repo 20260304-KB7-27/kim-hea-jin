@@ -6,13 +6,9 @@
 </template>
 
 <script setup>
-
-
-
+defineOptions({
+  name: 'LeyteGulfTab',
+});
 </script>
 
-<style scoped>
-
-
-
-</style>
+<style scoped></style>
