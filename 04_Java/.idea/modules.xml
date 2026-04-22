@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/04_Java.iml" filepath="$PROJECT_DIR$/.idea/04_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch01-variable-type-operator/ch01-variable-type-operator.iml" filepath="$PROJECT_DIR$/ch01-variable-type-operator/ch01-variable-type-operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch02-conditional-loop-reference/ch02-conditional-loop-reference.iml" filepath="$PROJECT_DIR$/ch02-conditional-loop-reference/ch02-conditional-loop-reference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-class/ch03-class.iml" filepath="$PROJECT_DIR$/ch03-class/ch03-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch04-inheritance/ch04-inheritance.iml" filepath="$PROJECT_DIR$/ch04-inheritance/ch04-inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05-interface/ch05-interface.iml" filepath="$PROJECT_DIR$/ch05-interface/ch05-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch06-nested-object/ch06-nested-object.iml" filepath="$PROJECT_DIR$/ch06-nested-object/ch06-nested-object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch07-exception/ch07-exception.iml" filepath="$PROJECT_DIR$/ch07-exception/ch07-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch08-javabase/ch08-javabase.iml" filepath="$PROJECT_DIR$/ch08-javabase/ch08-javabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch99-design/ch99-design.iml" filepath="$PROJECT_DIR$/ch99-design/ch99-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
+    </modules>
+  </component>
+</project>
